@@ -1,0 +1,346 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap Practice 2</title>
+	<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+</head>
+
+<style>
+	body{
+		padding-top: 40px;
+	}
+
+</style>
+<body data-spy="scroll" data-target="#myNavBar">
+	<!-- Nav bar --> 
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="myNavBar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+				<a href="" class="navbar-brand">Wiseman Chemistry</a>
+			</div> <!--  End navbar header -->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#reviews">Reviews</a></li>
+					<li><a href="#gallery">Pictures</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#FAQ">FAQ</a></li>
+					<li><a href="#contact">Contact</a></li>
+
+				</ul>
+			</div>
+		</div><!-- End container -->
+	</nav> <!-- End Navbar -->
+	<!-- Jumbotron --> 
+	<div class="jumbotron">
+		<div class="container text-center">
+			<H1>Wiseman Chemistry</H1>
+			<p>Welcome! You've reached Ms. Wiseman's homepage for her 2015-16 HB-Woodlawn courses (and her old GMHS courses).This year, I'm teaching 1 section of AP Chemistry and 4 sections of first year Chemistry. Use the links below to access information and assignments for each course.</p>
+			<div class="btn-group">
+				<a href="#something" class="btn btn-lg btn-info">Warning Button</a>
+				<a href="#something" class="btn btn-lg btn-info">Another Button</a>
+				<a href="#something" class="btn btn-lg btn-info">A third Button</a>
+			</div>
+		</div> <!-- End container -->
+	</div> <!--End Jumbotron -->
+
+	<div class="container"> <!-- reviews --> 
+		<section>
+			<div class="page-header" id="reviews">
+				<h2>Reviews</h2>
+				<small>Check out the awesome feedback. </small>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis laoreet iaculis. Etiam dolor nulla, maximus at ante nec, dictum tincidunt lorem.</p>
+						<footer>John Doe</footer>
+					</blockquote>
+				</div>
+				<div class="col-lg-4">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis laoreet iaculis. Etiam dolor nulla, maximus at ante nec, dictum tincidunt lorem.</p>
+						<footer>John Doe</footer>
+					</blockquote>
+				</div>
+				<div class="col-lg-4">
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis laoreet iaculis. Etiam dolor nulla, maximus at ante nec, dictum tincidunt lorem.</p>
+						<footer>John Doe</footer>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+		</div> <!-- End reviews-->
+		<section> <!--call to action -->
+			<div class="well">
+				<div class="container text-center">
+					<H3>Subscribe for more free stuff</H3>
+					<p>Your name and e-mail.</p>
+					<form action="" class="form-inline">
+						<div class="form-group">
+							<label for="subsscribe">Subscribe</label>
+							<input type="text" class="form-control" id="subscription" placeholder="Your Name"></input>
+						</div>
+						<div class="form-group">
+							<label for="email">e-mail address</label>
+							<input type="text" class="form-control" id="email" placeholder="Enter your e-mail address"></input>
+						</div>
+						<button type="submit" class="btn btn-info">Subscribe</button>
+						<hr>
+					</form>
+				</div>
+			</div>
+		</section> <!-- Call to Action -->
+
+		<div class="container"> <!-- gallery --> 
+		<section>
+			<div class="page-header" id="gallery">
+				<h2>Gallery</h2>
+				<small>Check out the awesome gallery. </small>
+			</div>	
+				<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+					<ol class="carousel-indicators"><!-- these are for the little circles at bottom of pics for navigation -->
+						<li data-target="#screenshot-carousel" data-slide-to="0" class="active">		</li>
+						<li data-target="#screenshot-carousel" data-slide-to="1">						</li>
+						<li data-target="#screenshot-carousel" data-slide-to="2">						</li>
+						<li data-target="#screenshot-carousel" data-slide-to="3">						</li>
+					</ol>
+					<div class="carousel-inner"> <!-- include images here --> 
+						<div class="item active">
+							<img src="https://www.rmit.edu.au/media/public-site-media-production/rmit-images/marketing-only/ia--sia/Chemistry-1920x960.jpg" alt="molecule image">
+							<div class="carousel-caption">
+								<h3>Molecules!</h3>
+								<p>We'll learn how molecules are made and how they affet the properties of a material.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="http://wallpapershdfine.com/wp-content/gallery/funny-chemistry-images/chemistry-glassware.jpg" alt="molecule image">
+							<div class="carousel-caption">
+								<h3>Molecules!</h3>
+								<p>We'll learn how molecules are made and how they affet the properties of a material.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="http://www.learnin4livin.com/wp-content/uploads/2014/07/chemistry.jpg" alt="molecule image">
+							<div class="carousel-caption">
+								<h3>Molecules!</h3>
+								<p>We'll learn how molecules are made and how they affet the properties of a material.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="http://mswilliamsonscience.weebly.com/uploads/3/1/5/4/31543403/9617240_orig.jpg" alt="molecule image">
+							<div class="carousel-caption">
+								<h3>Molecules!</h3>
+								<p>We'll learn how molecules are made and how they affet the properties of a material.</p>
+							</div>
+						</div>
+						
+					</div> <!-- end carousel inner --> 
+					<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div> <!-- end carousel slide --> 
+			</section>
+		</div> <!-- end gallery container-->
+		<div class="container"><!-- features --> 
+			<section>
+				<div class="page-header" id="features">
+				<h2>Features</h2>
+				<small>Check out the features. </small>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-8">
+						<h3>This is the heading.</h3>
+						<p>This is some text about the features, blah blah blah. Lorem ipsum is not working. </p>
+					</div>
+					<div class="col-lg-4">
+						<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcStAabbTqPFbV8fBRl0QjMVI3o42dNv71aKJcouWy-kS_e_E6-1Nv6oY3mYmg" class="img-responsive" alt="image as text">
+					</div>
+				</div> <!-- end row of features --> 
+				<hr>
+				<div class="row"> <!-- panel in features --> 
+					<div class="col-lg-4">
+						<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-asterisk"></span>
+							<h4>Heading</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis laoreet iaculis. Etiam dolor nulla, maximus at ante nec, dictum tincidunt lorem</p>
+						</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-asterisk"></span>
+							<h4>Heading</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis laoreet iaculis. Etiam dolor nulla, maximus at ante nec, dictum tincidunt lorem</p>
+						</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-asterisk"></span>
+							<h4>Heading</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis laoreet iaculis. Etiam dolor nulla, maximus at ante nec, dictum tincidunt lorem</p>
+						</div>
+						</div>
+					</div>
+				</div> <!-- end panel in features --> 
+			</section>
+		</div>
+		<!-- faq --> 
+		<div class="container">
+			<section>
+				<div class="page-header" id="FAQ">
+				<h2>FAQ</h2>
+				<small>Frequently Asked Questions </small>
+				</div>
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">Question 1</a>
+							</div> <!-- end panel title -->
+							<div id="collapse-1" class="panel-collapse collapse">
+								<div class="panel-body">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis laoreet iaculis. Etiam dolor nulla, maximus at ante nec, dictum tincidunt lorem
+								</div>
+							</div> <!-- end panel collapse --> 
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">Question 2</a>
+							</div> <!-- end panel title -->
+							<div id="collapse-2" class="panel-collapse collapse">
+								<div class="panel-body">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis laoreet iaculis. Etiam dolor nulla, maximus at ante nec, dictum tincidunt lorem
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">Question 3</a>
+							</div> <!-- end panel title -->
+							<div id="collapse-3" class="panel-collapse collapse">
+								<div class="panel-body">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis laoreet iaculis. Etiam dolor nulla, maximus at ante nec, dictum tincidunt lorem<
+								</div> <!-- end panel body --> 
+							</div><!-- end panel collapse --> 
+						</div><!-- end panel heading --> 
+					</div><!-- end panel --> 
+				</div><!-- end panel group --> 
+			</section>
+		</div> <!-- end container --> 
+		<!-- Contact --> 
+		<div class="container">
+			<section>
+				<div class="page-header" id="contact">
+				<h2>Contact Us</h2>
+				<small>Contact us. </small>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<p>Send us a message or contact us from the address below.</p>
+
+						<address><strong>
+							Wiseman Chemistry
+						</strong> <br>
+						4100 N. Vacation Lane <br>
+						Arlington, VA 22207<br>
+						P: 703-248-6363
+						</address>
+					</div>
+					<div class="col-lg-8">
+						<form action="" class="form-horizontal">
+							<div class="form-group">
+								<label form="user-name" class="col-lg-2 control-label">Name
+								</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="user-name" placeholder="Enter your name"></input>
+								</div>
+							</div> <!-- end form-group --> 
+							<div class="form-group">
+								<label form="user-email" class="col-lg-2 control-label">e-mail
+								</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="user-email" placeholder="Enter your e-mail address">
+								</div>
+							</div> <!-- end form-group --> 
+
+							<div class="form-group">
+								<label form="user-url" class="col-lg-2 control-label">Website/Blog 
+								</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="user-url" placeholder="If you have a website.">
+								</div>
+							</div> <!-- end form-group --> 
+
+							<div class="form-group">
+								<label form="user-message" class="col-lg-2 control-label">Message
+								</label>
+								<div class="col-lg-10">
+									<textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your message."></textarea>
+								</div>
+							</div> <!-- end form-group --> 
+							<div class="form-group">
+								<div class="col-lg-10 col-lg-offset-2">
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</div>
+							</div>
+
+						</form> 
+					</div> <!-- end coloumn of 8 --> 
+				</div> <!-- end row --> 
+			</section>
+		</div>
+	<!--footer -->
+	<footer>
+	<hr>
+		<div class="container text-center">
+			<H3>Subscribe for more free stuff</H3>
+			<p>Your name and e-mail.</p>
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<label for="subsscribe">Subscribe</label>
+					<input type="text" class="form-control" id="subscription" placeholder="Your Name">
+				</div>
+				<div class="form-group">
+					<label for="email">e-mail address</label>
+					<input type="text" class="form-control" id="email" placeholder="Enter your e-mail address">
+				</div>
+				<button type="submit" class="btn btn-info">Subscribe</button>
+
+			</form>
+		
+		<hr>
+		<ul class="list-inline">
+			<li><a href="http://www.facebook.com">Facebook</li>
+			<li><a href="http://www.twitter.com">Twitter</li>
+			<li><a href="http://www.pinterest.com">Pinterest</li>
+		</ul>
+		<p>&copy; Copyright @ 2015 Wiseman Chemistry</p>
+		</div>
+	</footer>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>

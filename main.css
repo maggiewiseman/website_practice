@@ -1,0 +1,31 @@
+p {
+
+	font-family: 'Century Gothic', sans-serif;
+}
+
+.main {
+	width: 85%;
+	height: 750px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROlAnE40T4hFS4cIhxUKXjF3DbakDNz28N5dkvD2dQruyJ6bYn");
+}
+h1 {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+
+.nav_unit{
+	background-color: #663399;
+	border-width: 2px;
+	margin-top: 20px;
+	padding-left: 4px;
+	border-color: #ffffff;
+	font-size: 1rem;
+	border: 3px solid #BADA55;
+	border-radius: 10px;
+	color: #ffffff;
+
+}
+
+p {
+	color: #ffffff;
+}
