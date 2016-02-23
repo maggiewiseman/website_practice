@@ -1,0 +1,97 @@
+<!DOCTTYPE html>
+</<!DOCTYPE html>
+<html>
+<head>
+	<title>Ms. Wiseman's Chemistry Pages</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+</head>
+<body>
+<style type="">
+	
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<div class="container">
+	<div class="row">
+		<H2>Multi level dropdown menu in bootstrap</H2>
+		<hr>
+		<div class="dropdown">
+			<a id="dlabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="/page.html">Dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu"> <!-- top of dropdown -->
+				<li><a href="#">Some Action</li>
+				<li><a href="#">Some other Action</li>
+				<li class="divider"></li>
+				<li class="dropdown-submenu"> <!-- begin submenu 1 --> 
+					<a tabindex="-1" href="#">Hover Over me </a>
+					<ul class="dropdown-menu">
+						<li><a tabindex="-1" href="#">Second Level</a></li>
+						<li class="dropdown-submenu"> <!-- begin submenu 2 -->
+							<a href="#">Even more</a> 
+							<ul class="dropdown-menu">
+							<li><a href="#">3rd Level </a></li>
+							<li><a href="#">3rd Level </a></li>
+							</ul>
+						</li><!-- end submenu 2 -->
+						<li> <a href="#">2nd level</a></li>
+						<li> <a href="#">2nd level</a></li>
+					</ul>
+				</li> <!-- end submenu 1 --> 
+			</ul><!-- end ul 1 -->
+		</div> <!-- End Dropdown class -->
+
+	</div> <!-- End row -->
+</div> <!-- End container --> 
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
