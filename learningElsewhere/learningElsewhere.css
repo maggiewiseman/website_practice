@@ -1,0 +1,174 @@
+
+
+	body {
+		margin: 0;
+	}
+	nav {
+		position: fixed;
+		background-color: #384447;
+		height: 50px;
+		width: 100%;
+
+
+	}
+
+	nav li {
+		float: right;
+		list-style: none;
+		color: #fff;
+		font-family: verdana, sans-serif;
+		padding-right: 30px;
+
+	}
+
+	nav a {
+		color: #fff;
+		text-decoration: none;
+
+
+	}
+
+	nav a:hover {
+		color: #879194;
+	}
+
+	h1 {
+		padding-top: 50px;
+		font-family: 'Candal', sans-serif;
+		font-size: 3em;
+		color: #384447;
+		margin: 0;
+	}
+
+	p {
+		color: #fff;
+		font-family: 'Noto Serif', serif;
+		margin: 10px;
+	}
+	header {
+		background-image: url("images/kidsBooksField.jpg");
+		height: 500px;
+		background-size: cover;
+		text-align: center;
+
+	}
+
+	header h1 {
+		padding-top: 100px;
+		font-size: 4em;
+		text-shadow: 2px 2px 4px gray;
+	}
+
+	header p {
+		text-shadow: 2px 2px 4px black;	
+		font-size: 1.2em;
+	}
+	#curriculum {
+		background-color: #E22A80;
+		height: 300px;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	#teacher {
+		background-color: #FD5460;
+		height: 270px;
+		text-align: left;
+
+	}
+
+	#testimony {
+		background-color: #1EBE77;
+		text-align: center;
+		height: 500px;
+	}
+
+	#faq {
+		background-color: #2E867E;
+		text-align: center;
+		padding-bottom: 50px;
+		
+	}
+
+	#faq h2 {
+		font-family: 'Noto Serif', serif;
+		color: #D4CBD4;
+		text-align: left;
+		padding-left: 20px;
+		background: url("images/plus.png") no-repeat left center;
+	}
+
+	#faq h2.minus {
+		background: url("images/minus.png") no-repeat left center;
+	}
+
+	div.faqAnswer {
+		display: none;
+	}
+
+	#contact {
+		background-color: #4C2C7F;
+		text-align: center;
+		height: 300px;
+
+	}
+
+
+	#contact h1 {
+		color: white;
+		padding-bottom: 20px;
+	}
+	#teacher img {
+		float:left;
+		padding: 10px;
+
+	}
+
+
+	.clear {
+		clear: both;
+	}
+
+	blockquote {
+		float: left;
+		width: 27%;
+		text-align: justify;
+
+	}
+
+	#nav_header {
+		color: white;
+		font-family: 'Candal', sans-serif;
+		float: left;
+		padding: 10px; 0 0 0;
+		font-size: 1.2em;
+	}
+
+	.fixed-width {
+		width: 1000px;
+		margin: 0 auto;
+
+	}
+
+label{
+	color: #fff;
+	font-family: 'Noto Serif', serif;
+    display: inline-block;
+    float: left;
+    clear: left; 
+    width: 250px; 
+    text-align: right;
+}
+input, textarea {
+  display: inline-block;
+  float: left;
+
+}
+
+.submit_button {
+	position: relative;
+	margin-left: 50%;
+}
+
+	

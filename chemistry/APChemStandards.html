@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AP Chemistry Objectives</title>
+	<style type="text/css">
+	h1 {
+		font-family: Arial, sans-serif;
+		color: blue;
+
+	}
+
+	h2 {
+		font-family: Arial, sans-serif;
+		color: blue;
+		background: url("images/plus.png") no-repeat left center;
+		padding-left: 20px;
+	}
+
+	h2.minus {
+		background: url("images/minus.png") no-repeat left center;
+
+	}
+
+	</style>
+
+	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+			$("h2").next().hide();
+			$("h2").click(function(){
+	//			$(this).next().slideToggle(500);
+	//			$(this).toggleClass("minus");
+				$(this).toggleClass("minus");
+
+				if($(this).attr("class") != "minus") {
+					console.log("minus!");
+					$(this).next().hide(500);
+				} else {
+					$(this).next().slideDown(500);
+					console.log("plus");
+				}
+	
+			}); // end click
+		}); // end ready
+	
+	</script>
+
+</head>
+<body>
+<h1>AP Chemistry Grade Categories</h1>
+<div id="labObj">
+	<h2>Lab Objectives</h2>
+	<ul>
+		<li>Data Collection and Presentation</li>
+		<li>Lab Portfolio</li>
+		<li>Error Analysis</li>
+		<li>Justification with Evidence</li>
+	</ul>
+
+</div> <!-- end lab objective div -->
+<div id="matterObj">
+	<h2>Matter Objectives</h2>
+	
+	<ul>
+	<li>Classification</li>
+	<li>Structure</li>
+	<li>Symbols</li>
+	<li>Properties</li>
+	</ul>
+	
+</div>
+
+<div id="molecularLevel">
+	<h2>Molecular Level Understanding</h2>
+	<ul>
+	<li>Moles</li>
+	<li>KMT</li>
+	<li>Acids and Bases</li>
+	<li>Properties/Coulomb's Law</li>
+	<li>Thermodynamics</li>
+	<li>Collision Theory</li>
+	</ul>
+</div>
+<div id="Reactions">
+	<h2>Reactions</h2>
+	<div>
+	<ul>
+		<li>Kinetics</li>
+		<li>Equilibrium</li>
+		<li>Acids and Bases</li>
+		<li>Thermodynamics</li>
+		<li>Electrochemistry</li>
+	</ul>
+	</div>
+</div>
+<div id="math">
+	<h2>Math Routines</h2>
+	<ul>
+		<li>Math Routines</li>
+	</ul>
+</div>
+<div id="moles">
+	<h2>Molar Relationships</h2>
+	<ul>
+		<li>Molar Relationshps</li>
+	</ul>
+</div>
+	
+</body>
+</html>

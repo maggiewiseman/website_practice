@@ -1,0 +1,39 @@
+element.style {
+}
+@media only screen and (min-width: 400px)
+body {
+    font: 18px/24px DINNextRoundedLTW01-Lig, Helvetica, Helvetica Neue, Arial;
+}
+body {
+    font: 16px/21px DINNextRoundedLTW01-Lig, Helvetica, Helvetica Neue, Arial;
+    background: url(../img/backgroundPattern.png) #fff;
+    color: #404040;
+}
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+body {
+    margin: 0;
+}
+user agent stylesheetbody {
+    display: block;
+    margin: 8px;
+}
+Inherited from html.js.flexbox.canvas.canvastext.webgl.no-touch.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths
+html, button, input, select, textarea {
+    color: #222;
+}
+html, button, input, select, textarea {
+    font-family: sans-serif;
+}
+html {
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::selection element
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
