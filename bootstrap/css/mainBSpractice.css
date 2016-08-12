@@ -1,0 +1,37 @@
+
+.box {
+    background-color: aquamarine;
+}
+
+.box2 {
+    background-color: darkorchid;
+    border: 1px solid gray;
+}
+
+.wrapper {
+  .make-row();
+  width: 800px;
+
+}
+.content-main {
+  .make-lg-column(8);
+}
+.content-secondary {
+  .make-lg-column(3);
+  .make-lg-column-offset(1);
+}
+
+#div1 {
+    background-color: cornflowerblue;
+    height: 800px;
+}
+
+#div2 {
+    background-color: aquamarine;
+    height: 800px;
+}
+
+#div3 {
+    background-color:darkmagenta;
+    height: 800px;
+}

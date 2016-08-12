@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootswatchFlatly.css" rel="stylesheet">
+          <link href="css/mainBSpractice.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target="#navbar-collapse">
+    <div class="navbar navbar-default navbar-fixed-top">  
+    <div class="container">
+      <div class="navbar-header">
+        <a href="" class="navbar-brand">BS Practice!</a>
+        
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+
+        </button>
+        </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <Ul class="nav navbar-nav">
+            <!--<li class="active"> use this in li if you want a menu item to appear highlighted...--> 
+            <li><a href="#div1">Page 1</a></li>
+            <li><a href="#div2">Page 2</a></li>
+            <li><a href="#div3">Page 3</a></li>
+        
+        
+        </Ul>
+            
+        </div>
+      </div>
+    </div> <!-- end navbar --> 
+      <Br><br><br>
+    <h1>Hello, world!</h1>
+
+ <div class="container">
+      <div class="row">
+        <div class="col-md-6 box">Content</div>
+        <div class="col-md-6 box">Content</div>
+        
+        </div> <!-- end row -->
+        
+     <div class="row">
+        <div class="col-md-4 box2">.col-md-4</div>
+        <div class="col-md-4 col-md-offset-4 box2">.col-md-4 .col-md-offset-4</div> 
+     </div> <!-- end row -->
+     <div class="row">
+         <div class="col-md-3 col-md-offset-3 box2">.col-md-3 .col-md-offset-3</div>
+         <div class="col-md-3 col-md-offset-3 box2">.col-md-3 .col-md-offset-3</div>
+     </div><!-- end row -->
+     <div class="row">
+        <div class="col-md-6 col-md-offset-3 box2">.col-md-6 .col-md-offset-3</div>
+     </div><!-- end row -->
+        
+     <div class="row">     
+         <div class="col-xs-6 col-sm-4 box">col-xs-6 col-sm-4 box</div>
+   
+        <div class="col-xs-6 col-sm-4 box"> col-xs-6 col-sm-4</div>
+        <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 box">col-xs-6 col-xs-offset-3 col-sm-4</div>
+    </div> <!-- end row -->   
+     
+   <div class="row">
+        <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
+        <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
+   </div> <!-- end row -->
+
+   <div class="wrapper">
+        <div class="content-main box">Content Main in Wrapper</div>
+        <div class="content-secondary box2">Content-secondary in wrapper</div>
+   </div> <!-- end wrapper -->
+     
+     
+     <table class="table">  <!-- also table-striped --> 
+     <tr> <th>Unit</th><th>Topic</th></tr>
+        <tr class="success"><td>1</td><td>Measurement & Moles</td></tr>
+         <tr><td class="info"> 2 </td><td class="danger">Atomic Structure</td></tr>
+     
+     </table>
+      
+           <span class="glyphicon glyphicon-search"></span> <!-- can change the size and color by adding custom css class --> 
+     <div class="input-group">
+             <span class="input-group-addon">@</span>
+
+         <span class="glyphicon glyphicon-comment input-group-addon"></span>
+        <input class="form-control" type="text"/> 
+        <span class="input-group-addon">.00</span>
+     
+     </div>
+     <button class="btn btn-success" type="button"><span class="glyphicon glyphicon-search"></span>&nbsp;Search</button>
+      <div class="alert alert-success">You've done it!
+     <button type="button" class="close" data-dismiss="alert">x</button>
+     </div> <!-- so this just shows up, but how do you make it just show up after something has been submitted or whatever? --> 
+     
+     <ul class="list-group">
+        <li class="list-group-item"> Item 1 
+         <span class="badge">12</span></li>
+         <li class="list-group-item"> Item 2 </li>
+         <li class="list-group-item"> Item 3 </li>
+         <li class="list-group-item"> Item 4 </li>
+     
+     
+     </ul>
+     
+     <p> A modal: the button just allows us to make the modal pop up or not</p>
+     <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Launch Modal</button>
+     <div class="modal" id="myModal">
+        <div class="modal-dialog modal-sm">
+         <div class="modal-content">
+            
+             <div class="modal-header">
+             
+                 <button class="close" data-dismiss="modal">x</button>
+                    
+                 <h4 class="modal-title">My Modal</h4>
+             </div>
+             
+             <div class="modal-body">
+                
+                 What a fantastic modal! 
+             </div>
+             
+             <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                 <button class="btn btn-success" type="button">Save Changes</button>
+             </div>
+            </div>
+         
+         
+         
+         </div>
+     
+     
+     
+     </div> <!-- end modal --> 
+     <!-- demo of scrollspy.  Need to make navbar have class navbar-fixed-top, add links to navbar menu items, change body tag to say data-spy="scroll" data-target=".navbar-collapse"-->
+     <div id="div1"></div>
+     <div id="div2"></div>
+     <div id="div3"></div>
+     
+    
+</div> <!-- end container --> 
+      
+      
+      
+      
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

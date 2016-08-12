@@ -1,0 +1,84 @@
+span {
+    font-style: italic;
+}
+
+.feature-circle {
+    background-color: cornflowerblue;
+    border-radius: 999px;
+    height: 80px;
+    margin: 0 auto;
+    width: 80px;
+   
+}
+
+.one-o-feature {
+    display: inline-block;
+    line-height: 1.5;
+    padding-left: 26px;
+    text-align: center;
+    width: 32%;
+}
+
+
+
+.materials-icon {
+    
+    font-size: 200%;
+    color: azure;
+     position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+
+
+
+
+.description-wrapper {
+  background: #ecf0f1;
+}
+
+.vertical-title {
+  writing-mode: vertical-lr;
+}
+
+.wrapper {
+  
+}
+
+.logo {
+  padding-top: 0;
+  margin-top: -15px;
+  height: 50px;
+  width: 75px;
+}
+
+span {
+  
+}
+
+.jumbotron {
+  background: url("/images/chemistry-background-molecules-formulas-24595665.jpg");
+}
+
+.jumbotron {
+  
+}
+
+.expectations-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2c3e50;
+  color: aliceblue;
+}
+
+H1 {
+ 
+}
+
+
+
+H1 {
+  background-color: white;
+}
